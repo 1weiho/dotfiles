@@ -1,0 +1,7 @@
+theme = "Adventure" 
+font-family = "Geist Mono"
+font-size = 16
+background-opacity = 0.8
+background-blur-radius = 20
+window-padding-x = 32
+window-padding-y = 12
