@@ -1,0 +1,42 @@
+{
+    "workbench.colorTheme": "Vesper",
+    "workbench.iconTheme": "catppuccin-mocha",
+    "editor.fontFamily": "Fira Code",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "editor.fontSize": 16,
+    "editor.lineHeight": 2.3,
+    "terminal.integrated.fontSize": 14,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.fontLigatures": true,
+    "editor.pasteAs.preferences": [
+        "text.updateImports.jsts"
+    ],
+    "editor.accessibilitySupport": "off",
+    "workbench.editor.customLabels.patterns": {
+        "**/app/**/page.tsx": "${dirname} - Page",
+        "**/app/**/layout.tsx": "${dirname} - Layout",
+        "**/app/**/route.ts": "${dirname} - API"
+    },
+    
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "prettier.singleQuote": true,
+    "explorer.compactFolders": false,
+
+    "typescript.referencesCodeLens.enabled": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[dockercompose]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    },
+    "php.inlayHints.parameters.enabled": false,
+    "php.inlayHints.types.return": false,
+    "php.inlayHints.types.lambdaParameter": false
+}
