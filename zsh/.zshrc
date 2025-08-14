@@ -7,6 +7,7 @@ eval "$(starship init zsh)"
 
 # zsh extensions
 eval "$(zoxide init zsh)"
+eval "$(fzf --zsh)"
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
@@ -43,3 +44,6 @@ function c() {
 }
 
 alias wip='git add . && git commit -m "wip"'
+
+# eza (better ls)
+alias ll='eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions'

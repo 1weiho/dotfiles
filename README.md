@@ -27,3 +27,15 @@ And there are three zsh extensions I use:
    ```bash
    brew install zsh-autosuggestions
    ```
+
+4. **fzf**: command-line fuzzy finder.
+   
+   ```bash
+   brew install fzf
+   ```
+
+5. **eza**: modern alternative to ls.
+   
+   ```bash
+   brew install eza
+   ```
